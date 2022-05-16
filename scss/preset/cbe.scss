@@ -104,6 +104,11 @@ body {
 
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+  background-color: black !important;
+}
+
+#navbar-burger, #navbar-createcourse, #navbar-usernav .nav-link, #dropdownMenuButton, #navbar-ddlink {
+  filter: invert(100%);
 }
 
 // Rounded user pictures
